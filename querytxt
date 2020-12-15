@@ -1,0 +1,14 @@
+curl -G http://localhost:8086/query?pretty=true -u admin:admin --data-urlencode "q=SHOW DATABASES"
+
+
+curl -G http://localhost:8086/query?pretty=true -u admin:admin --data-urlencode "db=emsdb" --data-urlencode "q=SELECT \"value\" FROM \"data\" WHERE \"region\"='us-west'"
+
+
+
+curl -X POST -H 'Accept: application/json' -G http://localhost:8086/query?pretty=true -u admin:admin --data-urlencode "db=emsdb" --data-urlencode "q=SELECT * FROM \"data\" LIMIT 1"
+
+curl -X POST -H 'Accept: application/json' -G http://localhost:8086/query?pretty=true -u admin:admin --data-urlencode "db=emsdb" --data-urlencode "q=SELECT \"ess0/ActivePower\" FROM \"data\" LIMIT 1"
+
+
+
+curl -v -X POST -H 'Accept: application/json' -G http://localhost:8086/query?pretty=true -u admin:admin --data-urlencode "db=emsdb" --data-urlencode "q=SELECT mean(\"ess0/Soc\") FROM data Where time > now() - 1m GROUP BY time(10s)"

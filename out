@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Request-Id: e2a8c862-3f03-11eb-803b-0242ac130003
+X-Influxdb-Build: OSS
+X-Influxdb-Version: 1.7.9
+X-Request-Id: e2a8c862-3f03-11eb-803b-0242ac130003
+Date: Tue, 15 Dec 2020 18:32:28 GMT
+Transfer-Encoding: chunked
+
+{"results":[{"statement_id":0,"series":[{"name":"databases","columns":["name"],"values":[["emsdb"],["_internal"]]}]}]}
