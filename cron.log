@@ -194,3 +194,227 @@ success 12/16/2020, 11:51:01 AM
 success 12/16/2020, 11:52:01 AM
 []
 success 12/16/2020, 11:53:02 AM
+[]
+success 12/16/2020, 11:54:01 AM
+[]
+success 12/16/2020, 11:55:01 AM
+[]
+success 12/16/2020, 11:56:01 AM
+[]
+success 12/16/2020, 11:57:01 AM
+[]
+success 12/16/2020, 11:58:01 AM
+[]
+success 12/16/2020, 11:59:01 AM
+[]
+success 12/16/2020, 12:00:01 PM
+[]
+success 12/16/2020, 12:01:01 PM
+[]
+success 12/16/2020, 12:02:02 PM
+[]
+success 12/16/2020, 12:03:01 PM
+[]
+success 12/16/2020, 12:04:01 PM
+[]
+success 12/16/2020, 12:05:01 PM
+[]
+success 12/16/2020, 12:06:01 PM
+[]
+success 12/16/2020, 12:07:01 PM
+[]
+success 12/16/2020, 12:08:01 PM
+[]
+success 12/16/2020, 12:09:01 PM
+val :  [ '2020-12-16T03:01:00Z', 50 ]
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/ubuntu/work/cron/test2.js:54:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: 'INSERT INTO stat_month_wh SET ? '
+}
+undefined
+success 12/16/2020, 12:10:01 PM
+val :  [ '2020-12-16T03:02:00Z', 50 ]
+success 12/16/2020, 12:11:01 PM
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/ubuntu/work/cron/test2.js:54:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: 'INSERT INTO stat_month_wh SET ? '
+}
+undefined
+val :  [ '2020-12-16T04:32:00Z', 50 ]
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '50' at line 1
+    at Query.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/ubuntu/work/cron/test2.js:54:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '50' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "INSERT INTO stat_month_wh SET `target` = '2020-12-16T04:32:00Z', 50 "
+}
+undefined
+success 12/16/2020, 1:41:01 PM
+val :  50
+success 12/16/2020, 1:42:01 PM
+Error: ER_NO_DEFAULT_FOR_FIELD: Field 'description' doesn't have a default value
+    at Query.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/ubuntu/work/cron/test2.js:54:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'description' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'INSERT INTO stat_month_wh SET `target` = 50 '
+}
+undefined
+val :  50
+success 12/16/2020, 1:43:01 PM
+Error: ER_NO_DEFAULT_FOR_FIELD: Field 'description' doesn't have a default value
+    at Query.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/ubuntu/work/cron/test2.js:54:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'description' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'INSERT INTO stat_month_wh SET `target` = 50 '
+}
+undefined
+val :  50
+Error: ER_NO_DEFAULT_FOR_FIELD: Field 'description' doesn't have a default value
+    at Query.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/ubuntu/work/cron/test2.js:54:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'description' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: 'INSERT INTO stat_month_wh SET `target` = 50 '
+}
+undefined
+success 12/16/2020, 1:44:02 PM
+val :  50
+success 12/16/2020, 1:45:01 PM
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 1,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0
+}
+val :  50
+success 12/16/2020, 1:46:01 PM
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 2,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0
+}
+val :  50
+success 12/16/2020, 1:47:01 PM
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 3,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0
+}

@@ -13,14 +13,7 @@ var conn = mysql.createConnection({
 
 conn.connect();
 
-conn.query('select * from edboards', function (error, results, fields) {
-    if (error) {
-        console.log(error);
-    }
-    console.log(results);
-});
 
-conn.end();
 
 
 // fetch("http://localhost:8086/query?pretty=true&db=emsdb&q=SELECT \"ess0/ActivePower\" FROM data LIMIT 1", {
@@ -44,11 +37,27 @@ conn.end();
 })
 .then(res => res.json())
 .then(json => 
+    {
+
+
+    
     fs.writeFile('/home/ubuntu/work/cron/out3',JSON.stringify(json.results[0].series), function(err){
         if (err === null) {
             console.log('success ' + new Date().toLocaleString());
         } else {
             console.log('fail', err);
         }
-    })
+    });
+
+    console.log("val : ", json.results[0].series[0].values[1][1])
+    var insertVal = {target: json.results[0].series[0].values[1][1]}
+    conn.query('INSERT INTO stat_month_wh SET ? ', insertVal, function (error, results, fields) {
+        if (error) {
+            console.log(error);
+        }
+        console.log(results);
+    });
+    
+    conn.end();
+    }
 )
