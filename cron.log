@@ -42,3 +42,155 @@ success 12/16/2020, 7:22:01 AM
 success 12/16/2020, 7:23:02 AM
 success 12/16/2020, 7:24:01 AM
 success 12/16/2020, 7:25:01 AM
+success 12/16/2020, 7:26:01 AM
+success 12/16/2020, 7:27:01 AM
+success 12/16/2020, 7:28:01 AM
+success 12/16/2020, 7:29:01 AM
+success 12/16/2020, 7:30:01 AM
+success 12/16/2020, 7:31:01 AM
+success 12/16/2020, 7:32:02 AM
+success 12/16/2020, 7:33:01 AM
+success 12/16/2020, 7:34:01 AM
+success 12/16/2020, 7:35:01 AM
+success 12/16/2020, 7:36:01 AM
+success 12/16/2020, 7:37:01 AM
+success 12/16/2020, 7:38:01 AM
+success 12/16/2020, 7:39:01 AM
+success 12/16/2020, 7:40:01 AM
+success 12/16/2020, 7:41:01 AM
+success 12/16/2020, 7:42:01 AM
+success 12/16/2020, 7:43:02 AM
+success 12/16/2020, 7:44:01 AM
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'mysql69'@'172.23.0.1' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/ubuntu/work/cron/test2.js:13:6)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'mysql69'@'172.23.0.1' (using password: YES)",
+  sqlState: '28000',
+  fatal: true
+}
+undefined
+success 12/16/2020, 11:44:02 AM
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'mysql69'@'172.23.0.1' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/ubuntu/work/cron/test2.js:13:6)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'mysql69'@'172.23.0.1' (using password: YES)",
+  sqlState: '28000',
+  fatal: true
+}
+undefined
+success 12/16/2020, 11:45:01 AM
+success 12/16/2020, 11:46:01 AM
+Error: getaddrinfo ENOTFOUND rdb8
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/ubuntu/work/cron/test2.js:13:6)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'rdb8',
+  fatal: true
+}
+undefined
+success 12/16/2020, 11:47:01 AM
+Error: getaddrinfo ENOTFOUND rdb8
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/ubuntu/work/cron/test2.js:13:6)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'rdb8',
+  fatal: true
+}
+undefined
+success 12/16/2020, 11:48:01 AM
+Error: getaddrinfo ENOTFOUND rdb8
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/ubuntu/work/cron/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/ubuntu/work/cron/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/ubuntu/work/cron/test2.js:14:6)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'rdb8',
+  fatal: true
+}
+undefined
+success 12/16/2020, 11:49:01 AM
+[]
+[]
+success 12/16/2020, 11:50:01 AM
+[]
+success 12/16/2020, 11:51:01 AM
+[]
+success 12/16/2020, 11:52:01 AM
+[]
+success 12/16/2020, 11:53:02 AM

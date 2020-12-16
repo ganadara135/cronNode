@@ -1,8 +1,26 @@
 var fetch = require('node-fetch');
 var fs = require('fs');
+var mysql = require('mysql');
+const { connect } = require('http2');
 
+var conn = mysql.createConnection({
+    host : '172.18.68.174',
+    user : 'mysql69',
+    password : 'mysql69',
+    database : 'eddb',
+    port : '63306'
+})
 
+conn.connect();
 
+conn.query('select * from edboards', function (error, results, fields) {
+    if (error) {
+        console.log(error);
+    }
+    console.log(results);
+});
+
+conn.end();
 
 
 // fetch("http://localhost:8086/query?pretty=true&db=emsdb&q=SELECT \"ess0/ActivePower\" FROM data LIMIT 1", {
