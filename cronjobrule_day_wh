@@ -1,0 +1,11 @@
+1 0 * * * /home/cron/cronjob_day_wh.sh >> /home/cron/cronjob_day_wh.log
+
+1 0 * * * /home/cron/cronjob_day_gas.sh >> /home/cron/cronjob_day_gas.log
+
+1 0 1 * * /home/cron/cronjob_last_month_gas.sh >> /home/cron/cronjob_last_month_gas.log
+
+1 0 1 * * /home/cron/cronjob_last_month_wh.sh >> /home/cron/cronjob_last_month_wh.log
+
+* 1 * * * /home/cron/cronjob_this_month_wh.sh >> /home/cron/cronjob_this_month_wh.log
+
+* 1 * * * /home/cron/cronjob_this_month_gas.sh >> /home/cron/cronjob_this_month_gas.log

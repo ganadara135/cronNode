@@ -1,1 +1,3 @@
 * * * * * /home/ubuntu/work/cron/test2.sh >> /home/ubuntu/work/cron/cron.log
+
+* * * * * /home/ubuntu/work/cron/cronjob.sh >> /home/ubuntu/work/cron/cron.log
